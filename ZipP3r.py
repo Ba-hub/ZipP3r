@@ -37,7 +37,7 @@ def make_copies_and_compress(infile, outfile, n_copies):
 if __name__ == '__main__':
 	if len(sys.argv) < 3:
 		print 'Usage:\n'
-		print ' ZipP3r.py n_levels output_zip_file'
+		print ' ZipP3r.py Levels Output_zip_file.zip'
 		exit()
 	n_levels = int(sys.argv[1])
 	out_zip_file = sys.argv[2]
